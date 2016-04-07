@@ -6,7 +6,7 @@ from datetime import datetime as dt
 #Python class to work with a FHIR Patient resource end-point
 class Patient:
 
-	def __init__(self, mrn, domain="JHH", url=r"http://jhmw-mig-app-01:9002/epic_query"):
+	def __init__(self, mrn, domain="JHH", url=r"<Add FHIR Resource URL here>"):
 		self.url = url
 		payload = {}
 		payload['pid'] = mrn
